@@ -1,0 +1,17 @@
+/* src/styles/Navbar.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    color: #fff;
+}
+
+.About {
+    margin-left: 10vw;
+}
+
+h1 {
+    font-family: "Archivo", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
