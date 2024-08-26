@@ -14,13 +14,13 @@
     justify-content: center;
     align-items: center;
     width: 25vw;
-    position: sticky;
+    position: fixed;
     margin-top: 5px;
-    backdrop-filter: blur(10px);
 }
 
 .navbar-menu {
     padding: 0;
+    backdrop-filter: blur(100px);
 }
 
 a:not(.nolink) {

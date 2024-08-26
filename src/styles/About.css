@@ -1,5 +1,9 @@
 /* src/styles/Navbar.css */
 
+* {
+    user-select: none;
+}
+
 @font-face {
     font-family: 'Text';
     font-weight: 400;
@@ -46,11 +50,16 @@ b {
 
 .socials {
     margin-top: 2vh;
+    display: flex;
 }
 
-button {
-    width: 8vw;
-    height: 5vh;
+.socials div {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     color: #020617;
     font-family: 'Text', sans-serif;
     font-size: 14px;
@@ -63,9 +72,9 @@ button {
     background: radial-gradient(666px at 0.4% 48%, rgb(202, 204, 227) 0%, rgb(89, 89, 99) 97.5%);
 }
 
-button:hover {
+.socials div:hover {
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1.025);
 }
 
 .nolink {

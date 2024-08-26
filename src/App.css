@@ -1,7 +1,5 @@
 /* App.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
-
 body {
   background-color: #020617;
   background-image: 
@@ -16,7 +14,7 @@ body {
   left: 50%;
   transform: translate(-50%);
   width: 90vw;
-  margin-top: 5vh;
+  margin-top: 10vh;
 }
 
 .section-1 div {

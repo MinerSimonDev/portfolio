@@ -3,6 +3,9 @@
 import React from 'react';
 import '../styles/About.css';
 
+import GitHubLogo from '../icons/icons8-github.svg';
+import LinkedInLogo from '../icons/icons8-linkedin.svg';
+
 const About = () => {
   return (
     <div className='About'>
@@ -12,8 +15,14 @@ const About = () => {
       <span>Creating <b>clean</b>, <b>minimalist designs</b> and <b>efficient solutions</b>.</span><br />
       <span>Committed to making a meaningful impact through simplicity.</span><br />
       <div className='socials'>
-        <button><a href="https://github.com/MinerSimonDev/" rel='noreferrer' className='nolink' target='_blank'>GitHub</a></button>
-        <button><a href="https://www.linkedin.com/in/simon-grimm-6627a1256" rel='noreferrer' className='nolink' target='_blank'>LinkedIn</a></button>
+        <div className='github-button'>
+          <a href="https://github.com/MinerSimonDev/" rel='noreferrer' className='nolink' target='_blank'>GitHub</a>
+          <img src={GitHubLogo} alt='GitHub' />
+        </div>
+        <div className='linkedin-button'>
+          <a href="https://www.linkedin.com/in/simon-grimm-6627a1256" rel='noreferrer' className='nolink' target='_blank'>LinkedIn</a>
+          <img src={LinkedInLogo} alt='LinkedIn' />
+        </div>
       </div>
     </div>
   );

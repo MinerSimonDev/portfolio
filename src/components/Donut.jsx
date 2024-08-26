@@ -46,7 +46,7 @@ const Donut = () => {
   }, []);
 
   return (
-    <div style={{whiteSpace: "pre", fontFamily: "Courier New, monospace", fontSize: "16.999px", lineHeight: "16.999px", letterSpacing: "-1px", color: "#4c5365", marginLeft: "-5vw", userSelect: "none"}} className="spinning-donut">
+    <div style={{whiteSpace: "pre", fontFamily: "Courier New, monospace", fontSize: "16.999px", lineHeight: "16.999px", letterSpacing: "-1px", color: "#4c5365", marginLeft: "-5vw", userSelect: "none", marginTop: '5vh'}} className="spinning-donut">
       {frame}
     </div>
   );
