@@ -15,12 +15,10 @@ body {
   position: relative;
   left: 50%;
   transform: translate(-50%);
-  width: 80vw;
-  border: 1px solid red;
+  width: 90vw;
   margin-top: 5vh;
 }
 
 .section-1 div {
-  border: 1px solid white;
   width: 40vw;
 }

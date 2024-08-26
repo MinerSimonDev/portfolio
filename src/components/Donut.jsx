@@ -10,8 +10,8 @@ const Donut = () => {
       y = 0;
 
     const renderFrame = () => {
-      z += 0.07;
-      y += 0.03;
+      z += 0.055;
+      y += 0.015;
       const a = [...new Array(x)].map((_, r) => (r % 80 === 79 ? "\n" : " "));
       const r = new Array(x).fill(0);
       const t = Math.cos(z),
@@ -46,7 +46,7 @@ const Donut = () => {
   }, []);
 
   return (
-    <div style={{whiteSpace: "pre", fontFamily: "Courier New, monospace", fontSize: "13.333px", lineHeight: "13.333px", letterSpacing: "-1px", color: "#474D5C"}}>
+    <div style={{whiteSpace: "pre", fontFamily: "Courier New, monospace", fontSize: "16.999px", lineHeight: "16.999px", letterSpacing: "-1px", color: "#4c5365", marginLeft: "-5vw", userSelect: "none"}} className="spinning-donut">
       {frame}
     </div>
   );

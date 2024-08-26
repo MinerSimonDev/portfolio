@@ -1,5 +1,12 @@
 /* src/styles/Navbar.css */
 
+@font-face {
+    font-family: 'Text';
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/text.woff2") format('woff2');
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
@@ -7,11 +14,61 @@ body {
 }
 
 .About {
-    margin-left: 10vw;
+    margin-left: 7vw;
 }
 
 h1 {
-    font-family: "Archivo", sans-serif;
-    font-size: 48px;
+    font-family: "Text", sans-serif;
+    font-size: 64px;
     font-weight: bold;
+    margin: 0;
+    padding-top: 10vh;
+}
+
+p {
+    margin: 0;
+    padding-top: 0vh;
+    padding-bottom: 5vh;
+    font-size: 24px;
+    color: #0891B2;
+    font-weight: 600;
+}
+
+span {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+b {
+    font-weight: normal;
+    color: #0891B2;
+}
+
+.socials {
+    margin-top: 2vh;
+}
+
+button {
+    width: 8vw;
+    height: 5vh;
+    color: #020617;
+    font-family: 'Text', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background: #e7e8ea;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    margin-right: 1vw;
+    transition: 0.25s ease-in-out;
+    background: radial-gradient(666px at 0.4% 48%, rgb(202, 204, 227) 0%, rgb(89, 89, 99) 97.5%);
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.nolink {
+    text-decoration: none;
+    color: #020617;
 }

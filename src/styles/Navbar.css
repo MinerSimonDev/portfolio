@@ -23,26 +23,27 @@
     padding: 0;
 }
 
-a {
+a:not(.nolink) {
     text-decoration: none;
     color: #fff;
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Text', sans-serif;
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 4px;
     padding-bottom: 4px;
     border-radius: 16px;
+    transition: 0.25s ease-in-out;
 }
 
-a:hover {
-    transition: 0.8 ease-in-out;
+a:hover:not(.nolink) {
     background: #4F515D;
 }
 
 ul {
     display: flex;
     justify-content: center;
-    font-size: 16px;
+    font-size: 16.5px;
     list-style: none;
     background: #020617;
+    gap: 5px;
 }
