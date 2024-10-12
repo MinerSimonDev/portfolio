@@ -20,13 +20,15 @@ function App() {
           title="Portfolio"
           date="AUGUST - NOW"
           description="I am currently developing an interactive portfolio using React to showcase my web development skills, highlight my projects, technologies, and provide a structured overview of my experience."
-          link="https://www.google.com"
+          link="#home"
+          linkName="Visit home"
         />
         <TimeLineItem
-          title="Test"
+          title="EasySeat"
           date="AUGUST - OCTOBER"
-          description="I am currently developing an interactive portfolio using React to showcase my web development skills, highlight my projects, technologies, and provide a structured overview of my experience."
-          link="https://www.google.com"
+          description="EasySeat is a seat reservation system for HTL Dornbirn's annual fashion show, held during the open house event. It allows visitors to book seats in advance, ensuring a smooth and organized experience for all attendees, with easy seat selection and management."
+          link="https://easyseat.at"
+          linkName="Visit EasySeat"
         />
       </div>
     </div>
