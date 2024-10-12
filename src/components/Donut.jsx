@@ -1,5 +1,6 @@
 // src/components/Donut.jsx
 import React, { useEffect, useState } from "react";
+import { motion } from 'framer-motion';
 
 const Donut = () => {
   const [frame, setFrame] = useState("");
@@ -46,8 +47,14 @@ const Donut = () => {
   }, []);
 
   return (
-    <div style={{whiteSpace: "pre", fontFamily: "Courier New, monospace", fontSize: "16.999px", lineHeight: "16.999px", letterSpacing: "-1px", color: "#4c5365", marginLeft: "-5vw", userSelect: "none", marginTop: '5vh'}} className="spinning-donut">
-      {frame}
+    <div style={{ whiteSpace: "pre", fontFamily: "Courier New, monospace", fontSize: "16.999px", lineHeight: "16.999px", letterSpacing: "-1px", color: "#a6acbd", marginLeft: "-5vw", userSelect: "none", marginTop: '5vh' }} className="spinning-donut">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 4 }}
+      >
+        {frame}
+      </motion.div>
     </div>
   );
 };

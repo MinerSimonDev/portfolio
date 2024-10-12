@@ -1,6 +1,7 @@
 // src/components/About.jsx
 
 import React from 'react';
+import { motion } from 'framer-motion';
 import '../styles/About.css';
 
 import GitHubLogo from '../icons/icons8-github.svg';
@@ -9,6 +10,11 @@ import LinkedInLogo from '../icons/icons8-linkedin.svg';
 const About = () => {
   return (
     <div className='About'>
+    <motion.div
+      initial={{ x: '-10vw', opacity: 0 }} 
+      animate={{ x: 0, opacity: 1 }}
+      transition={{ type: 'spring', stiffness: 50, duration: 1.5 }}
+    >
       <h1 className='h1-1'>Simon Grimm</h1>
       <p className='p-1'>A Full Stack Developer from 🇦🇹</p>
       <span>Passionate about innovation and Open Source, with a love for Linux.</span><br />
@@ -24,6 +30,7 @@ const About = () => {
           <img src={LinkedInLogo} alt='LinkedIn' />
         </div>
       </div>
+      </motion.div>
     </div>
   );
 };

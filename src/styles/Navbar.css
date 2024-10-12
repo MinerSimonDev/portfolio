@@ -15,7 +15,7 @@
     align-items: center;
     width: 25vw;
     position: fixed;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .navbar-menu {
@@ -23,9 +23,8 @@
     backdrop-filter: blur(100px);
 }
 
-a:not(.nolink) {
+.navbar-link:not(.nolink) {
     text-decoration: none;
-    color: #fff;
     font-family: 'Text', sans-serif;
     padding-left: 16px;
     padding-right: 16px;
@@ -35,7 +34,7 @@ a:not(.nolink) {
     transition: 0.25s ease-in-out;
 }
 
-a:hover:not(.nolink) {
+.navbar-link:hover:not(.nolink) {
     background: #4F515D;
 }
 

@@ -21,15 +21,15 @@ body {
     margin-left: 7vw;
 }
 
-h1 {
+.h1-1 {
     font-family: "Text", sans-serif;
     font-size: 64px;
-    font-weight: bold;
+    font-weight: 1000;
     margin: 0;
     padding-top: 10vh;
 }
 
-p {
+.p-1 {
     margin: 0;
     padding-top: 0vh;
     padding-bottom: 5vh;
