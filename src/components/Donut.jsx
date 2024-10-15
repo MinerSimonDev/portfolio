@@ -1,6 +1,7 @@
 // src/components/Donut.jsx
 import React, { useEffect, useState } from "react";
 import { motion } from 'framer-motion';
+import '../styles/Donut.css'
 
 const Donut = () => {
   const [frame, setFrame] = useState("");

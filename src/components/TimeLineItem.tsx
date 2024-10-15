@@ -23,6 +23,7 @@ const TimelineItem: FC<Props> = ({ title, date, description, link, linkName }: P
     >
       <div className="timeLineItem">
         <div className="timeLineItem-left">
+        <div className="line"></div>
           <div className="timeLineItem-icon">
             <svg
               aria-hidden="true"
@@ -47,7 +48,7 @@ const TimelineItem: FC<Props> = ({ title, date, description, link, linkName }: P
               href={link}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:color-white hover:text-custom-blue ease-in-out duration-200 hover:text-blue-700 focus:bg-gray-100 focus:text-blue-700 focus:z-10 focus:outline-none focus:ring-gray-200 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:bg-gray-700 dark:focus:text-white dark:focus:ring-gray-700"
+              className="timeLineItem-button ml-5 inline-flex items-center rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:color-white hover:text-custom-blue ease-in-out duration-200 hover:text-blue-700 focus:bg-gray-100 focus:text-blue-700 focus:z-10 focus:outline-none focus:ring-gray-200 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:bg-gray-700 dark:focus:text-white dark:focus:ring-gray-700"
             >
               {linkName}
               <svg

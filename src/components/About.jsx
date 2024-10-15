@@ -13,7 +13,7 @@ const About = () => {
     <motion.div
       initial={{ x: '-10vw', opacity: 0 }} 
       animate={{ x: 0, opacity: 1 }}
-      transition={{ type: 'spring', stiffness: 50, duration: 1.5 }}
+      transition={{ type: 'spring', stiffness: 50, duration: 3 }}
     >
       <h1 className='h1-1'>Simon Grimm</h1>
       <p className='p-1'>A Full Stack Developer from 🇦🇹</p>

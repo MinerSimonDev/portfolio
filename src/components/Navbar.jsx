@@ -11,13 +11,12 @@ const Navbar = () => {
         <motion.div
           initial={{ y: '-5vh', opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ type: 'spring', stiffness: 100, duration: 1 }}
+          transition={{ type: 'spring', stiffness: 100, duration: 4 }}
         >
           <ul className="navbar-menu">
             <li className="navbar-item"><a href="#home" className="navbar-link">Home</a></li>
             <li className="navbar-item"><a href="#experience" className="navbar-link">Experience</a></li>
             <li className="navbar-item"><a href="#projects" className="navbar-link">Projects</a></li>
-            <li className="navbar-item"><a href="#services" className="navbar-link">Services</a></li>
             <li className="navbar-item"><a href="#about" className="navbar-link">About</a></li>
           </ul>
         </motion.div>
