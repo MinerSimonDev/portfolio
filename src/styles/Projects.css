@@ -1,0 +1,33 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.projects-container-1 {
+    height: 30vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    width: 25vw;
+    height: 30vh;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.project-name {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 10px;
+}
+
+.project-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}

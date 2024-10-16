@@ -1,5 +1,9 @@
 /* App.css */
 
+/* * {
+  border: 1px solid red;
+} */
+
 body {
   background-color: #020617;
   background-image: 
@@ -24,11 +28,24 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 250px;
+  margin-bottom: 100px;
 }
 
 .section-1 div {
   width: 40vw;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 300px;
+}
+
+.section-3 h1 {
+  font-size: 30px;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 768px) {
