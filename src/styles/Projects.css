@@ -23,7 +23,9 @@
     position: absolute;
     left: 0;
     top: 0;
-    margin: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: 'Consolas', sans-serif;
 }
 
 .project-img {

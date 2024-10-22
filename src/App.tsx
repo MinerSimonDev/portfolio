@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './App.css';
 import About from './components/About.jsx';
 import Donut from './components/Donut.jsx';
@@ -7,8 +7,13 @@ import Navbar from './components/Navbar.jsx';
 import Project from './components/Projects.tsx'; // Ein einzelnes Project-Component
 
 import examplePicture from './images/grayscreen.jpg';
+import { motion, useInView } from 'framer-motion';
 
 function App() {
+
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
   return (
     <div className="App" id="home">
       <Navbar />
@@ -41,7 +46,14 @@ function App() {
       </div>
 
       <div className="section-3" id="projects">
-        <h1>My Projects</h1>
+        <motion.div
+          ref={ref}
+          initial={{ x: '-15vw', opacity: 0 }}
+          animate={isInView ? { x: 0, opacity: 1 } : {}}
+          transition={{ type: 'spring', stiffness: 50, duration: 1.5 }}
+        >
+          <h1>My Projects</h1>
+        </motion.div>
         <div className="projects-container-1">
           <Project
             imageSrc={examplePicture}
