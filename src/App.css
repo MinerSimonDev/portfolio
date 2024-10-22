@@ -15,8 +15,5 @@ body {
   transform: translate(-50%);
   width: 90vw;
   margin-top: 10vh;
-}
-
-.section-1 div {
-  width: 40vw;
+  gap: 100px;
 }

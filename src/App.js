@@ -8,8 +8,8 @@ function App() {
     <div className='App'>
       <Navbar />
       <div className='section-1'>
-        <About />
         <Donut />
+        <About />
       </div>
     </div>
   );

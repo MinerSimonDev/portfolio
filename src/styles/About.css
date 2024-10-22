@@ -17,14 +17,10 @@ body {
     color: #fff;
 }
 
-.About {
-    margin-left: 7vw;
-}
-
 h1 {
     font-family: "Text", sans-serif;
     font-size: 64px;
-    font-weight: bold;
+    font-weight: 1000;
     margin: 0;
     padding-top: 10vh;
 }
@@ -46,6 +42,10 @@ span {
 b {
     font-weight: normal;
     color: #0891B2;
+}
+
+.About {
+    min-width: 500px;
 }
 
 .socials {

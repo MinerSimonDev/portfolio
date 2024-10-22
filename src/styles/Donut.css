@@ -1,0 +1,7 @@
+.profilePicture {
+    border-radius: 200px;
+    box-shadow: 
+    0 4px 6px rgba(0, 0, 0, 0.3), /* leicht unscharfer Schatten */
+    0 8px 12px rgba(0, 0, 0, 0.2), /* zusätzlicher tieferer Schatten */
+    0 12px 20px rgba(0, 0, 0, 0.1); /* weiter verteilter, weicher Schatten */
+}
