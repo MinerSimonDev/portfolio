@@ -4,7 +4,7 @@ import About from './components/About.jsx';
 import Donut from './components/Donut.jsx';
 import TimeLineItem from './components/TimeLineItem.tsx';
 import Navbar from './components/Navbar.jsx';
-import Project from './components/Projects.tsx'; // Ein einzelnes Project-Component
+import Project from './components/Projects.tsx';
 
 import examplePicture from './images/grayscreen.jpg';
 import { motion, useInView } from 'framer-motion';
@@ -57,15 +57,15 @@ function App() {
         <div className="projects-container-1">
           <Project
             imageSrc={examplePicture}
-            projectName="Test 1"
+            projectName="EasySeat"
           />
           <Project
             imageSrc={examplePicture}
-            projectName="Test 2"
+            projectName="Dajino.at"
           />
           <Project
             imageSrc={examplePicture}
-            projectName="Test 3"
+            projectName="Shake-Clubbing.at"
           />
         </div>
       </div>
